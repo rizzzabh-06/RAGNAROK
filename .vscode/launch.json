@@ -3,10 +3,10 @@
   "configurations": [
     {
       "name": "Run AI Triage (FastAPI)",
-      "type": "python",
+      "type": "debugpy",
       "request": "launch",
       "module": "uvicorn",
-      "args": ["main:app", "--reload", "--port", "8000"],
+      "args": ["app.main:app", "--reload", "--port", "8000"],
       "justMyCode": true,
       "envFile": "${workspaceFolder}/.env"
     }

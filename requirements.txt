@@ -2,3 +2,8 @@ fastapi
 uvicorn
 pydantic
 requests
+supabase
+joblib
+scikit-learn
+python-dotenv
+numpy
